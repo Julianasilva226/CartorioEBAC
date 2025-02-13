@@ -158,7 +158,8 @@ int main()
  	  printf("Escolha a opção desejada do menu: \n\n");	
 	  printf("\t1 - Cadastrar Novo Usuário\n");
 	  printf("\t2 - Consultar Cadastros\n");
-  	  printf("\t3 - Deletar Usuários\n\n"); 
+  	  printf("\t3 - Deletar Usuários\n\n");
+	  printf("\t4 - Encerrar a seção.\n\n"); 
  	  printf("\n Digite a opção desejada:");
 	  // fim do menu
 
@@ -183,6 +184,14 @@ int main()
 		 case 3:
 		   deletar();
 		   break; 
+		 
+		 case 4:
+		  printf("Obrigado por utilizar o nosso sistema!"); 
+		  return 0;
+		   break;
+		   
+		   
+		   
 		   
 		   default:
 		   printf("Ha opção desejada não está disponivel, Retorne ao menu Inicial.");
