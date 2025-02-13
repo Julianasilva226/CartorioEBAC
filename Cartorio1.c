@@ -190,9 +190,6 @@ int main()
 		  return 0;
 		   break;
 		   
-		   
-		   
-		   
 		   default:
 		   printf("Ha opção desejada não está disponivel, Retorne ao menu Inicial.");
 		   system("pause");
